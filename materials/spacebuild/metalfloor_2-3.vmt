@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "moon/moon_wallpanels05"
+	"$baseTexture" "moon/moon_wallpanels01"
 	"$surfaceprop"	"metal"
 	
 	$basealphaenvmapmask  1
@@ -12,6 +12,26 @@
 	"$detailscale" "0.5"
 	"$detailblendmode" "0"
 	"$detailblendfactor" "0.5"
+
+	"$blendtintbybasealpha" "0" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{184 56 59}"  
+	"$colortint_tmp" "[0 0 0]" 
+
+	"Proxies"
+	{
+		"ItemTintColor"
+		{
+			"resultVar" "$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"	"$colortint_tmp"
+			"srcVar2"	"$colortint_base"
+			"resultVar" "$color2"
+		}
+	}
 }
 
 
