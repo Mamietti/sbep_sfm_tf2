@@ -29,4 +29,10 @@
 			Game				hl2
 		}
 	}
+    
+    ToolsEnvironment
+	{
+		"Engine"	"SFM"
+		"ToolsDir"	"../sdktools"	// Default Tools path. NOTE: This is relative to the mod path.
+	}
 }

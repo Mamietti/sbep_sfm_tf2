@@ -1,7 +1,5 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "spacebuild/dirtyplate2"
-	"$bumpmap" "spacebuild/dirtyplate2_bump"
-	"$surfaceprop" "metal"
-	"$model"     1
+	"$baseTexture" "moon/moon_wallpanels05"
+	"$surfaceprop"	"metal"
 }
