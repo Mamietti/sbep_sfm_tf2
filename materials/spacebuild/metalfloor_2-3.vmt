@@ -21,6 +21,20 @@
 
 	"Proxies"
 	{
+		Clamp
+		{
+			min 1
+			max 1
+			srcVar1 "$color"
+			resultVar "$color"
+		}
+		Clamp
+		{
+			min 1
+			max 1
+			srcVar1 "$color2"
+			resultVar "$color2"
+		}
 		"ItemTintColor"
 		{
 			"resultVar" "$colortint_tmp"

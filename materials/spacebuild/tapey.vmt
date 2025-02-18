@@ -3,5 +3,23 @@
 	"$basetexture" "spacebuild/tapey"
 	"$surfaceprop" "metal"
 	"$vertexcolor" 		1 
-	"$nolod" 			1 
+	"$nolod" 			1
+
+	Proxies
+	{
+		Clamp
+		{
+			min 1
+			max 1
+			srcVar1 "$color"
+			resultVar "$color"
+		}
+		Clamp
+		{
+			min 1
+			max 1
+			srcVar1 "$color2"
+			resultVar "$color2"
+		}
+	}
 }
