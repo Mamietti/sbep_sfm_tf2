@@ -1,11 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "spacebuild/lwmetal1nc1"
-	"$surfaceprop" "metal"
-	"$model" 1
-	 "$phong"     "1"
-	"$halflambert"	1
- 	"$phongexponent"   "60"
- 	"$phongboost"   "0.5"
- 	"$phongfresnelranges"   "[.5 .8 1]"
+	"$baseTexture" "moon/moon_wallpanels03"
+	//$bumpmap "moon/moon_wallpanels03_normal"
+	"$surfaceprop"	"metal"
 }

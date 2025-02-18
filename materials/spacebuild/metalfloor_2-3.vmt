@@ -1,14 +1,17 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "spacebuild/metalfloor_2-3"
-	"$surfaceprop" "metal"
-	"$model" "1"
-	"$bumpmap" "spacebuild/metalfloor_2-3_bump"
-	"$phong"     "1"
-	"$halflambert"	1
- 	"$phongexponent"   "60"
- 	"$phongboost"   "1"
- 	"$phongfresnelranges"   "[.5 .8 1]"
+	"$baseTexture" "moon/moon_wallpanels05"
+	"$surfaceprop"	"metal"
+	
+	$basealphaenvmapmask  1
+	"$envmapcontrast" "0"
+	"$envmap" "cubemaps\cubemap_specular001"
+	"$envmaptint" "[ 0 0 0 ]"
+	"$surfaceprop"	"metal"
+	"$detail" "detail/moon_wallpanels02_detail.vtf"
+	"$detailscale" "0.5"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "0.5"
 }
 
 

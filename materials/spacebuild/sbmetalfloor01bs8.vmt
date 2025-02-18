@@ -1,5 +1,9 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" "moon/moon_wallpanels01"
+	"$basealphaenvmapmask"  1
+	"$envmapcontrast" "0"
+	"$envmap" "cubemaps\cubemap_specular001"
+	"$envmaptint" "[ 0.09 0.070 0.04 ]"
 	"$surfaceprop"	"metal"
 }
