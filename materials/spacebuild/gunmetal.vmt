@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture"	"patterns/solid_charcoal"
+	"$basetexture"	"patterns/combat/black"
 	//"$bumpmap" 	"models\buildables\sentry3\Sentry3_normal"
 	"$phong" "1"
 	"$basemapalphaphongmask" 1
